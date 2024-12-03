@@ -1,0 +1,76 @@
+---
+title: "Taller de Herramientas Cuantitativas"
+bibliography: testVisual.bib
+output: 
+  flexdashboard::flex_dashboard
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard) # always
+```
+
+## Sidebar {.sidebar}
+
+
+Preparing the dashboard based on the instructions given at @magallanes_reyes_data_2022, and @aden-buie_flexdashboard_2023.
+
+
+
+## Column {.tabset .tabset-fade}
+
+### Previo a creación de APEC 1989
+
+```{r}
+library(igraph)
+library(jsonlite)
+
+# Definir la ruta base donde se encuentran los archivos JSON
+ruta_base <- "C:/Users/Luis/Documents/GitHub/final/week3/"
+
+# Leer y convertir cada archivo JSON en un grafo de igraph
+data_89 <- fromJSON(paste0(ruta_base, "Framework_Agreement_Net_89.json"))
+net_89 <- graph_from_data_frame(d=data_89$links, vertices=data_89$nodes, directed=TRUE)
+# Crear una ventana de gráficos con 2 filas y 2 columnas
+par(mfrow=c(2, 2))
+
+# Graficar cada red con etiquetas de nodos
+plot(net_89, main="Previo a creación de APEC 1989", vertex.label=V(net_89)$name, vertex.size=5)
+```
+
+### 30 años despúes de APEC
+
+```{r}
+library(igraph)
+library(jsonlite)
+
+# Definir la ruta base donde se encuentran los archivos JSON
+ruta_base <- "C:/Users/Luis/Documents/GitHub/final/week3/"
+
+data_2010 <- fromJSON(paste0(ruta_base, "Framework_Agreement_Net_2010.json"))
+net_2010 <- graph_from_data_frame(d=data_2010$links, vertices=data_2010$nodes, directed=TRUE)
+
+
+# Crear una ventana de gráficos con 2 filas y 2 columnas
+par(mfrow=c(2, 2))
+
+plot(net_2010, main="20 años después de APEC", vertex.label=V(net_2010)$name, vertex.size=5)
+```
+
+### 40 años despúes de APEC
+
+```{r}
+
+# Definir la ruta base donde se encuentran los archivos JSON
+ruta_base <- "C:/Users/Luis/Documents/GitHub/final/week3/"
+
+
+data_2024 <- fromJSON(paste0(ruta_base, "Framework_Agreement_Net_2024.json"))
+net_2024 <- graph_from_data_frame(d=data_2024$links, vertices=data_2024$nodes, directed=TRUE)
+
+# Crear una ventana de gráficos con 2 filas y 2 columnas
+par(mfrow=c(2, 2))
+
+plot(net_2024, main="30 años después de APEC", vertex.label=V(net_2024)$name, vertex.size=5)
+```
+
+### References
