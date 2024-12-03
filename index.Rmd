@@ -22,67 +22,14 @@ Preparing the dashboard based on the instructions given at @magallanes_reyes_dat
 ### Mapa de calor primer challenge 1
 
 ```{r}
-readRDS("C:/Users/Luis/Documents/GitHub/dashboard_taller/tablas/mapa_calor_1.rds")
+readRDS("C:/Users/Luis/Documents/GitHub/final/tablas/mapa_calor_1.rds")
 ```
 
 
 ### Mapa de calor primer challenge 2
 
 ```{r}
-readRDS("C:/Users/Luis/Documents/GitHub/dashboard_taller/tablas/mapa_calor_2.rds")
-```
-
-### Spatial Data (I) 1
-
-```{r}
-readRDS("C:/Users/Luis/Documents/GitHub/dashboard_taller/week2_spatial/algeria1.rds")
-```
-
-
-### Spatial Data (I) 2
-
-```{r}
-readRDS("C:/Users/Luis/Documents/GitHub/dashboard_taller/week2_spatial/algeria2.rds")
-```
-
-
-### Spatial Data (I) 3
-
-```{r}
-readRDS("C:/Users/Luis/Documents/GitHub/dashboard_taller/week2_spatial/algeria3.rds")
-```
-
-
-### Spatial Data (I) 4
-
-```{r}
-readRDS("C:/Users/Luis/Documents/GitHub/dashboard_taller/week2_spatial/algeria4.rds")
-```
-### Spatial Data (I) 4 total
-
-```{r}
-readRDS("C:/Users/Luis/Documents/GitHub/dashboard_taller/week2_spatial/algeriatotal.rds")
-```
-### Analisis de Redes de tratados bilaterales de inversión 1
-
-```{r}
-readRDS("C:/Users/Luis/Documents/GitHub/dashboard_taller/week3/Framework_Agreement_Net_20.rds")
-```
-### Analisis de Redes de tratados bilaterales de inversión 2
-
-```{r}
-readRDS("C:/Users/Luis/Documents/GitHub/dashboard_taller/week3/Framework_Agreement_Net_89.rds")
-```
-### Analisis de Redes de tratados bilaterales de inversión 3
-
-```{r}
-readRDS("C:/Users/Luis/Documents/GitHub/dashboard_taller/week3/Framework_Agreement_Net_2010.rds")
-```
-
-### Analisis de Redes de tratados bilaterales de inversión 4
-
-```{r}
-readRDS("C:/Users/Luis/Documents/GitHub/dashboard_taller/week3/Framework_Agreement_Net_2024.rds")
+readRDS("C:/Users/Luis/Documents/GitHub/final/tablas/mapa_calor_2.rds")
 ```
 
 ### References 

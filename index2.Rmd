@@ -21,26 +21,26 @@ Preparing the dashboard based on the instructions given at @magallanes_reyes_dat
 ### Spatial Data (I) 1
 
 ```{r}
-readRDS("C:/Users/Luis/Documents/GitHub/dashboard_taller/week2_spatial/algeria1.rds")
+readRDS("C:/Users/Luis/Documents/GitHub/final/week2_spatial/algeria1.rds")
 ```
 
 ### Spatial Data (I) 2
 
 ```{r}
-readRDS("C:/Users/Luis/Documents/GitHub/dashboard_taller/week2_spatial/algeria2.rds")
+readRDS("C:/Users/Luis/Documents/GitHub/final/week2_spatial/algeria2.rds")
 ```
 
 
 ### Spatial Data (I) 3
 
 ```{r}
-readRDS("C:/Users/Luis/Documents/GitHub/dashboard_taller/week2_spatial/algeria3.rds")
+readRDS("C:/Users/Luis/Documents/GitHub/final/week2_spatial/algeria3.rds")
 ```
 
 ### Spatial Data (I) 4
 
 ```{r}
-readRDS("C:/Users/Luis/Documents/GitHub/dashboard_taller/week2_spatial/algeriatotal.rds")
+readRDS("C:/Users/Luis/Documents/GitHub/final/week2_spatial/algeriatotal.rds")
 ```
 
 ### References
