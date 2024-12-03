@@ -1,0 +1,46 @@
+---
+title: "Taller de Herramientas Cuantitativas"
+bibliography: testVisual.bib
+output: 
+  flexdashboard::flex_dashboard
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard) # always
+```
+
+## Sidebar {.sidebar}
+
+
+Preparing the dashboard based on the instructions given at @magallanes_reyes_data_2022, and @aden-buie_flexdashboard_2023.
+
+
+
+## Column {.tabset .tabset-fade}
+
+### Spatial Data (I) 1
+
+```{r}
+readRDS("C:/Users/Luis/Documents/GitHub/dashboard_taller/week2_spatial/algeria1.rds")
+```
+
+### Spatial Data (I) 2
+
+```{r}
+readRDS("C:/Users/Luis/Documents/GitHub/dashboard_taller/week2_spatial/algeria2.rds")
+```
+
+
+### Spatial Data (I) 3
+
+```{r}
+readRDS("C:/Users/Luis/Documents/GitHub/dashboard_taller/week2_spatial/algeria3.rds")
+```
+
+### Spatial Data (I) 4
+
+```{r}
+readRDS("C:/Users/Luis/Documents/GitHub/dashboard_taller/week2_spatial/algeriatotal.rds")
+```
+
+### References
